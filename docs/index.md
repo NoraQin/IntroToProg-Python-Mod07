@@ -68,11 +68,11 @@ print(pickle.load(inlist)) # EOF
 ```
 *Listing 1. Pickling demo 1*
 
-![Figure 1. grocery_list.txt](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture2.png "Figure 1. grocery_list.txt")
+![Figure 1. grocery_list.txt](photos/Picture2.png "Figure 1. grocery_list.txt")
 
 *Figure 1. grocery_list.txt*
 
-![Figure 2. python console output](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture3.png "Figure 2. python console output")
+![Figure 2. python console output](photos/Picture3.png "Figure 2. python console output")
 
 *Figure 2. python console output*
 
@@ -81,7 +81,7 @@ print(pickle.load(inlist)) # EOF
 ### Try-except structure
 We can use the try-except structure to make sure Python handles errors gracefully and asks it to do some custom operations in the case of error. As seen in the example in Figure 3, if you run print(1/0), python would throw a ZeroDivisionError. But if you put it in a try-except structure, and in the except block adds print(denominator is zero), then Python will first try to execute the code in the try block, and instead of throwing an error, Python would execute the code in the except block and print out “denominator is zero”.
 
-![Figure 3. Basic try-except structure](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture4.png "Figure 3. Basic try-except structure")
+![Figure 3. Basic try-except structure](photos/Picture4.png "Figure 3. Basic try-except structure")
 
 *Figure 3. Basic try-except structure*
 
@@ -121,7 +121,7 @@ except Exception as e:
 ```
 *Listing 2. The exception classes*
 
-![Figure 4. Info about the exception classes](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture6.png "Figure 4. Info about the exception classes")
+![Figure 4. Info about the exception classes](photos/Picture6.png "Figure 4. Info about the exception classes")
 
 *Figure 4. Info about the exception classes*
 
@@ -151,7 +151,7 @@ except ZeroDivisionError as e:
 ```
 *Listing 3. Catching specific exceptions*
 
-![Figure 5. Catching specific exceptions – results](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture8.png "Figure 5. Catching specific exceptions – results")
+![Figure 5. Catching specific exceptions – results](photos/Picture8.png "Figure 5. Catching specific exceptions – results")
 
 *Figure 5. Catching specific exceptions – results*
 
@@ -202,11 +202,11 @@ except Exception as e:
 ```
 *Listing 5. Custom Exception class*
 
-![Figure 6. Custom Exception class – result](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture11.png "Figure 6. Custom Exception class – result")
+![Figure 6. Custom Exception class – result](photos/Picture11.png "Figure 6. Custom Exception class – result")
 
 *Figure 6. Custom Exception class – result*
 
-![Figure 7. Raise a custom error on its own](https://github.com/NoraQin/IntroToProg-Python-Mod07/blob/main/docs/photos/Picture12.png "Figure 7. Raise a custom error on its own")
+![Figure 7. Raise a custom error on its own](photos/Picture12.png "Figure 7. Raise a custom error on its own")
 
 *Figure 7. Raise a custom error on its own*
 
